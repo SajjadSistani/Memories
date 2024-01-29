@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Vazirmatn, sans-serif;
+}
+
+main {
+  display: flex;
+}
+
+h1 {
+  margin: auto;
+  color: white;
+  opacity: 50%;
+  font-family: "Single Day", sans-serif;
+  font-size: 40px;
+}
+
+.video-container {
+  z-index: -1;
+  position: fixed;
+}
+
+.editor-container {
+  z-index: 1;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  margin: 70px auto;
+
+  min-height: 450px;
+  width: 700px;
+  opacity: 60%;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  height: 50px;
+  border-radius: 20px;
+  margin-left: 20px;
+}
